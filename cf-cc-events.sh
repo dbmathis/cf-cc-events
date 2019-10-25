@@ -97,4 +97,4 @@ function load_all_pages {
 }
 
 
-load_all_pages "/v2/events?q=timestamp>${startdate}&q=timestamp<${enddate}&order-by=timestamp"
+load_all_pages "/v2/events?q=timestamp>=${startdate}&q=timestamp<=${enddate}&order-by=timestamp"

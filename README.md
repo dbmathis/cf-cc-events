@@ -24,6 +24,14 @@ $ cf login -a api.<system domain>
 
 ## Usage
 ```
+Usage:
+  cf-cc-events.sh -s <date> -e <date>
+
+  -s|--startdate <text> ISO-8601 date
+  -e|--enddate   <text> ISO-8601 date
+  -h|--help
+Examples:
+  $ cf-cc-events.sh -s "2019-10-23T00:00:00Z" -e 2019-10-24T00:00:00Z
 ```
 
 
