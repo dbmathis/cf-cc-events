@@ -1,5 +1,5 @@
 # CF CC Event
-
+Output cloud controller events within a date range with pagination.
 
 
 ## Installation

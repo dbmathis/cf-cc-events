@@ -1,5 +1,5 @@
 #!/bin/bash
-# Output cloud controller events within a date range
+# Output cloud controller events within a date range with pagination.
 die() {
     printf '%s\n' "$1" >&2
     exit 1
