@@ -38,7 +38,22 @@ Examples:
 ## Examples
 Run for a few days:
 ```
-Text
+MacBook-Pro-3 cf-cc-events$ ./cf-cc-events.sh -s 2019-10-22T0:00:00Z -e 2019-10-24T00:00:00Z > 2019-10-22-2019-10-24-events.json
+
+MacBook-Pro-3 cf-cc-events$ head 2019-10-22-2019-10-24-events.json
+[
+  {
+    "metadata": {
+      "guid": "a856fe0c-0c65-4c43-9d29-9c655dbaa18d",
+      "url": "/v2/events/a856fe0c-0c65-4c43-9d29-9c655dbaa18d",
+      "created_at": "2019-10-22T03:16:31Z",
+      "updated_at": "2019-10-22T03:16:31Z"
+    },
+    "entity": {
+      "type": "audit.user.organization_manager_add",
+
+MacBook-Pro-3 cf-cc-events$ grep actor_username 2019-10-22-2019-10-24-events.json | wc -l
+    1436
 ```
 
 
