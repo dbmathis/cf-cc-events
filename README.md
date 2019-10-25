@@ -1,4 +1,4 @@
-# CF CC Event
+# CF CC Events
 Output cloud controller events within a date range with pagination.
 
 
