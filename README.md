@@ -69,4 +69,4 @@ This is a community supported cloud foundry tool. Opening issues for questions, 
 
 ## Known Issues
 
-Need to add isolation segment support.s
+None
